@@ -34,5 +34,15 @@ int main() {
         printf("\n");
     }
     printf("\n");
-}
 
+    printf("Resultado de la suma:\n");
+    for (int i = 0; i < filas; i++) {
+        for (int j = 0; j < columnas; j++) {
+            matrizC[i][j] = matrizA[i][j] + matrizB[i][j];
+            printf("%d\t", matrizC[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
