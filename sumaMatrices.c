@@ -8,4 +8,10 @@ int main() {
     scanf("%d", &filas);
     printf("Ingrese el número de columnas: ");
     scanf("%d", &columnas);
+
+    srand(time(NULL));
+
+    int matrizA[filas][columnas];
+    int matrizB[filas][columnas];
+    int matrizC[filas][columnas];
 }
