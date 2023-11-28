@@ -14,4 +14,14 @@ int main() {
     int matrizA[filas][columnas];
     int matrizB[filas][columnas];
     int matrizC[filas][columnas];
+
+    printf("Matriz A:\n");
+    for (int i = 0; i < filas; i++) {
+        for (int j = 0; j < columnas; j++) {
+            matrizA[i][j] = rand() % 100 + 1;
+            printf("%d\t", matrizA[i][j]);
+        }
+        printf("\n");
+    }
+    printf("\n");
 }
